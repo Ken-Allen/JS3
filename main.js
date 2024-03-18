@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
             })
             .catch(error => console.error('Error fetching data:', error));
         } else {
-            alert("Table already created. Clear the table first if you want to load new data.");
+            alert("Table Already Exist");
         }
     });
 
